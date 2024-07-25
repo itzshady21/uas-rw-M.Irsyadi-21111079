@@ -48,7 +48,7 @@
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <a class="navbar-brand" href="#"><img class="mr-1" src="asset/yt.png" height="35px" alt="">YouTube</a>
+        <a class="navbar-brand" href="#"><img class="mr-1" src="youtube.jpg" height="50px" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
