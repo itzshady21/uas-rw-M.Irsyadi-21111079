@@ -9,10 +9,10 @@
     <style>
         body {
             padding-top: 56px;
-            background-color: #f9f9f9;
+            background-color: #181818;
         }
         .navbar {
-            background-color: #fff;
+            background-color: #212121;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
         .navbar-brand {
@@ -25,6 +25,7 @@
         .card {
             border: none;
             margin-bottom: 30px;
+            background-color: #212121;
         }
         .card-img-top {
             height: 180px;
@@ -34,10 +35,11 @@
             font-size: 16px;
             font-weight: bold;
             margin-top: 10px;
+            color: #fff;
         }
         .card-text {
             font-size: 14px;
-            color: #606060;
+            color: #fff;
         }
         .text-muted {
             font-size: 12px;
@@ -48,22 +50,28 @@
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <a class="navbar-brand" href="#"><img class="mr-1" src="youtube.jpg" height="50px" alt=""></a>
+    <a class="navbar-brand" href="#">
+  <img class="mr-1" src="yt-dark.png" height="50px" alt="">
+  <span style="color: white;">YouTube</span>
+</a>
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <form class="form-inline mx-auto">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <i class="fa-solid fa-microphone ml-4"></i>
+                <button id="search-button" type="button" class="btn btn-primary">
+    <i class="fas fa-search"></i> 
+</button>
+                
             </form>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa-solid fa-upload"></i></a>
+                <a class="nav-link" href="#"><i class="fa-regular fa-circle-down" style="color: white;"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa-solid fa-circle-user"></i></a>
+                    <a class="nav-link" href="#"><i class="fa-regular fa-user" style="color: white;"></i></a>
                 </li>
             </ul>
         </div>
